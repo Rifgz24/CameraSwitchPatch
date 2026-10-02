@@ -17,7 +17,7 @@ public class HookEntry implements IXposedHookLoadPackage {
 
         try {
             XposedHelpers.findAndHookMethod(
-                "com.android.camera.module.InterfaceC3402g0",
+                "com.android.camera.module.g0",
                 lpparam.classLoader,
                 "isCameraSwitchingDuringZoomingAllowed",
                 new XC_MethodHook() {
