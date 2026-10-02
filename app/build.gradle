@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "com.example.cameraswitchpatch"
     compileSdkVersion 34
     defaultConfig {
         applicationId "com.example.cameraswitchpatch"
